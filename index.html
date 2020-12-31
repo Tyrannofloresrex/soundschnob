@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/nes.css@latest/css/nes.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>soundschnob</title>
+  </head>
+
+  <body>
+    <h1 class="title">Sound Schnob</h1>
+    <p class="explain">Tell Barton T. Beat a band/artist you like. He will deliver a snobby response in "the snark tank."</p>
+    <container class="nes-container with-title is-centered">
+      <div class="row">
+        <div class="nes-field">
+          <label for="name_field">So, who do you like to listen to?</label>
+          <input type="text" id="name_field" class="nes-input" />
+        </br></br>
+          <button type="button" class="nes-btn is-primary" id ="submit">Submit</button>
+        </div>
+      </div>
+    </container>
+    <div class="row tank">
+      <img class= "Barton-Beat" src="TheBeat-Sacramento.jpg" alt ="Barton Beat leans casually, ready to deliver snark"/>
+      <div class="nes-container" id="snark-tank"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="script.js"></script>
+  </body>
+</html>
+

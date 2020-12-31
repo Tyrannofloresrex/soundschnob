@@ -1,0 +1,60 @@
+body {
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/813/645/186/digital-art-minimalism-abstract-wall-wallpaper-7261a250cdf67edb1a684245f0f8d9f2.jpg");
+    background-size: cover;
+}
+container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin: 100px auto;
+    background-color: black
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: silver;
+
+}
+h1 {
+    background-color: black
+}
+p {
+    max-width: 902px;
+    margin: 40px auto 0px;
+    padding: 40px;
+    text-align: left;
+    background-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(134, 134, 134);
+}
+.nes-input{
+    border-style: hidden
+}
+label {
+    color: white
+
+}
+
+#snark-tank{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 15px;
+    background-color:white;
+    border-style: none;
+}
+
+.tank {
+    max-width: 800px;
+    display: flex;
+    margin: auto;
+}
+.Barton-Beat {
+    width: 150px;
+    
+    
+}
